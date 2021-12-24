@@ -25,4 +25,5 @@ registrationForm.onsubmit=function(event){
         darkmode,
     };
     console.log(data);
+    localStorage.setItem("userInfo",JSON.stringify(data));
 };
